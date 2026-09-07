@@ -2,13 +2,19 @@
 
 fr:
   title: >-
-    www
+    Moulin à Légumes
   contentDir: content/fr
   locale: fr
   label: Français
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            moulinalegumes
+          value: >-
+            https://www.facebook.com/moulinalegumes
 
   taxonomies:
     administrator: administrators

@@ -9,12 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
-      social_networks:
-        facebook:
+      emails:
+        email:
           label: >-
-            moulinalegumes
+            info@moulin-a-legumes.com
           value: >-
-            https://www.facebook.com/moulinalegumes
+            mailto:info@moulin-a-legumes.com
 
   taxonomies:
     administrator: administrators

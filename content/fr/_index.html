@@ -10,7 +10,7 @@ subtitle: >-
 url: "/"
 slug: ""
 date: 2026-09-07T11:28:51+02:00
-lastmod: 2026-09-23T11:41:54+02:00
+lastmod: 2026-09-23T11:46:47+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-09-07T11:28:51+02:00
-    updated_at: 2026-09-23T11:41:54+02:00
+    updated_at: 2026-09-23T11:46:47+02:00
     published_at: 2026-09-07T11:28:51+02:00
 search:
   id: "9fe5e508-17c7-46f0-ab69-cfc201cf076f"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Paniers de légumes, toutes les semaines, ainsi que des produits laitiers, pain, oeufs, miel, fruits, volailles...</p>
   body: >-
-    <p>Exemples de paniers par saison  <br> Hiver </p>  <p>Petit panier à 10€ <br>1 botte d'aillet 1 salade 600g de pomme de terre</p>  <p>Grand Panier à 17€ <br>1 botte d'aillet 1 salade 600g de pomme de terre</p>
+    <p>Liste des producteur·ices </p>  <p>Qui livre l'AMAP ?</p>  <p> Carte des producteur·ices </p>  <p> Exemples de paniers par saison  <br> Hiver </p>  <p>Petit panier à 10€ <br>1 botte d'aillet 1 salade 600g de pomme de terre</p>  <p>Grand Panier à 17€ <br>1 botte d'aillet 1 salade 600g de pomme de terre</p>
 
 breadcrumbs:
   - title: >-
@@ -82,10 +82,84 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 9
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+    title: >-
+      Liste des producteur·ices
+    slug: >-
+      liste-des-producteur-ices
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Liste des producteur·ices
+        heading: 2
+      description: >-
+        <p>Qui livre l'AMAP ?</p>
+    data:
+      layout: grid
+      description: >-
+        <p>Qui livre l'AMAP ?</p>
+      options:
+        link: true
+        logo: true
+        summary: true
+        address: true
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/la-ferme-du-bosquet/"
+          path: "/organizations/la-ferme-du-bosquet"
+          slug: "la-ferme-du-bosquet"
+          file: "content/fr/organizations/la-ferme-du-bosquet.html"
+
+      quantity: 1
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Carte des producteur·ices
+    slug: >-
+      carte-des-producteur-ices
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Carte des producteur·ices
+        heading: 2
+
+    data:
+      layout: map
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/la-ferme-du-bosquet/"
+          path: "/organizations/la-ferme-du-bosquet"
+          slug: "la-ferme-du-bosquet"
+          file: "content/fr/organizations/la-ferme-du-bosquet.html"
+
+      quantity: 1
+
+
   - kind: block
     template: title
     title: >-
@@ -174,29 +248,6 @@ contents:
         contact: false
 
       persons:
-      quantity: 0
-
-
-  - kind: block
-    template: organizations
-
-
-    ranks:
-      base: 3
-    top:
-      active: false
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
       quantity: 0
 
 
